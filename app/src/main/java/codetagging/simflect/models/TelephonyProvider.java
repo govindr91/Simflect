@@ -1,5 +1,7 @@
 package codetagging.simflect.models;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -11,10 +13,15 @@ import java.util.Objects;
  */
 public class TelephonyProvider implements Serializable {
 
+    @SerializedName("manufacturer")
     private String manufacturer;
+    @SerializedName("className")
     private String className;
+    @SerializedName("classInstanceMethod")
     private String classInstanceMethod;
+    @SerializedName("classInstanceParamDataType")
     private Class classInstanceParamDataType;
+    @SerializedName("classInstanceParamValue")
     private Object classInstanceParamValue;
     /*private List<MethodProperties> methods = new ArrayList<>();*/
 
