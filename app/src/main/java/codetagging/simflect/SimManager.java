@@ -31,5 +31,4 @@ public class SimManager {
         SimflectBuilder.buildDetail(context, setOnPhoneDetailsFetched);
     }
 
-
 }

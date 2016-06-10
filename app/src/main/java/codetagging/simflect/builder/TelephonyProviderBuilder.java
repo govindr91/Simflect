@@ -169,7 +169,7 @@ public class TelephonyProviderBuilder {
         telephonyProvider.setClassInstanceMethod(classInstanceMethod);
         telephonyProvider.setClassInstanceParamDataType(classInstanceParamDataType);
         telephonyProvider.setClassInstanceParamValue(classInstanceParamValue);
-        telephonyProvider.setMethods(methods);
+        /*telephonyProvider.setMethods(methods);*/
         return telephonyProvider;
     }
 

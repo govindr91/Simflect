@@ -16,7 +16,7 @@ public class TelephonyProvider implements Serializable {
     private String classInstanceMethod;
     private Class classInstanceParamDataType;
     private Object classInstanceParamValue;
-    private List<MethodProperties> methods = new ArrayList<>();
+    /*private List<MethodProperties> methods = new ArrayList<>();*/
 
     public String getManufacturer() {
         return manufacturer;
@@ -58,11 +58,11 @@ public class TelephonyProvider implements Serializable {
         this.classInstanceParamValue = classInstanceParamValue;
     }
 
-    public List<MethodProperties> getMethods() {
+    /*public List<MethodProperties> getMethods() {
         return methods;
     }
 
     public void setMethods(List<MethodProperties> methods) {
         this.methods = methods;
-    }
+    }*/
 }

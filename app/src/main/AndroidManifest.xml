@@ -10,15 +10,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".SimflectApplication">
-        <activity android:name=".MainActivity"
-            android:launchMode="singleTask"
-            android:label="SimFlect">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-    </application>
+        android:name=".SimflectApplication"></application>
 
 </manifest>
