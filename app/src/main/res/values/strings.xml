@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">SimFlect</string>
-    <string name="default_class">android.telephony.TelephonyManager</string>
-    <string name="samsung_class">android.telephony.MultiSimTelephonyManager</string>
-    <string name="mediatek_class">com.mediatek.telephony.TelephonyManagerEx</string>
-    <string name="shared_pref">simflect_pref</string>
-</resources>
