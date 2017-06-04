@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/library/app.iml" filepath="$PROJECT_DIR$/library/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/simflect.iml" filepath="$PROJECT_DIR$/simflect.iml" />
-      <module fileurl="file://C:\DEV\Repos\simflect\.idea\simflect.iml" filepath="C:\DEV\Repos\simflect\.idea\simflect.iml" />
     </modules>
   </component>
 </project>
