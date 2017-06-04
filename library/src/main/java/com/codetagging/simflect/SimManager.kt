@@ -12,7 +12,7 @@ import com.codetagging.simflect.util.Constants
 import com.codetagging.simflect.util.TypeReflection
 import io.reactivex.Single
 
-object SimManager {
+object SimManager  {
 
     fun getPhoneDetails(context: Context): Single<PhoneDetails> {
         return Single.fromCallable {
