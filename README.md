@@ -1,3 +1,21 @@
-# simflect
+# Simflect
 
-Simflect project helps developers to identify if a device is single sim or multi sim. It also gathers some information related to the sim such as MNC code, MCC code, IMEI numbers, etc.
+[![](https://jitpack.io/v/Lighture/simflect.svg)](https://jitpack.io/#Lighture/simflect)
+
+Library that check if telephone is single SIM or dual SIM on Android.
+Sim info:
+* manufacturer
+* model
+* version code
+* is dual SIM
+* SIM details
+  * is SIM ready
+  * ID
+  * operator name
+  * MCC
+  * MNC
+
+## Code example:
+```
+SimManager.getPhoneDetails(context).blockingGet()
+```
